@@ -151,5 +151,124 @@ footer{
     text-align: right;
 }
 
+/*about strana*/
+.first-layer{
+    margin: auto;
+    width: 80%;
+    min-height:600px;
+    position: relative;
+}
+.first-layer::after{
+    content: "";
+    background:url(../img/teren2.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 85% 100% ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.8;
+    z-index: -1;
+}
+.wrapper-field{
+    display: grid;
+    grid-template-columns: 10% 25% 25% 20% 20% ;
+    grid-template-rows: repeat(5,20%);
+    gap: 5px;
+    margin: auto;
+    width: 85%;
+    height: auto;
+    min-height: 600px;
+    
+}
+.player-name{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
 
-
+.player-f{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.player-f img{
+    width: 80px;
+    height: auto;
+}
+.player-1{
+    position: relative;
+    top: 13px;
+    text-align: center;
+    left: 54px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.player-2{
+    margin-top:60px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.player-3{
+    position: relative;
+    top: 60px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.player-4{
+    position: relative;
+    bottom: 60px;
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.player-5{
+    position: relative;
+    bottom: 40px;
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+.player-6{
+    position: relative;
+    right: 80px;
+    top: 25px;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.player-7{
+    position: relative;
+    right: 80px;
+    bottom: 25px;
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+.player-8{
+    position: relative;
+    bottom: 50px;
+    right: 70px;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.player-9{
+    position: relative;
+    right: 145px;
+    top: 13px;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+.player-10{
+    position: relative;
+    top: 70px;
+    right: 70px;
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+.player-11{ 
+    position: relative;
+    right: 80px;
+    top: 13px;
+    grid-column: 5/6;
+    grid-row: 3/4;
+}
